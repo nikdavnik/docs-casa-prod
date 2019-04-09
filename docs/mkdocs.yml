@@ -1,11 +1,11 @@
 site_name: Gluu Casa Docs
 site_description: Documentation for Gluu Casa
+site_favicon: 'favicon.ico'
 copyright: Copyright &copy; 2019, Gluu, Inc.
 docs_dir: source
 repo_name: GluuFederation/docs-casa-prod
 repo_url: https://github.com/GluuFederation/docs-casa-prod/
-theme:
-    name: `material`
+theme_dir: theme/material
 extra:
     version: '4.0'
     logo: 'gluu.png'
@@ -14,9 +14,7 @@ markdown_extensions:
 - toc:
      permalink: '#'
 - pymdownx.superfences
-- pymdownx.snippets:
-    base_path: docs/_snippets
-nav:
+pages:
 - Home: 'index.md'    
 - Administration Guide: 
     - 'Installation': 'administration/installation.md'
