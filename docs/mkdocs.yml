@@ -29,7 +29,6 @@ markdown_extensions:
      permalink: '#'
 - pymdownx.superfences
 
-# Navigation Menu
 nav:
 - 'Versions':
     - '4.0': 'https://gluu.org/docs/casa/4.0/'
