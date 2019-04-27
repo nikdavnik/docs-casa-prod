@@ -348,7 +348,7 @@ The following are some important considerations to account:
 
 [Earlier](architecture.md#backend) we mentioned the usage of Weld for contexts and dependency injection. While Weld 3.0 API is available in `casa-shared` module, you **cannot** include managed beans, producer methods, or producer fields in your plugins. Weld is only aware of the beans discovered in the scanning phase at startup of Gluu Casa, while your classes are added dynamically at a later stage. Also injection simply won't take place.
 
-To be obtain references of already defined [services objects](#service-objects), use `Utils.managedBean`.
+To obtain references of already defined [service objects](#service-objects), use `Utils.managedBean`.
 
 ### Simultaneous plugin versions
 
