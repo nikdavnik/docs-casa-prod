@@ -3,7 +3,7 @@ Thanks for your interest in Casa! Follow the instructions below to deploy an ins
 
 View screenshots in the [User Guide](../user-guide.md).
 
-## Gluu Server pre-requirements
+## Gluu Server prerequisites
 
 Casa must be installed on the same server or VM as an operational Gluu Server 3.1.6 instance with at least the following components:  
 
@@ -14,7 +14,7 @@ Casa must be installed on the same server or VM as an operational Gluu Server 3.
 
 **[Install Gluu 3.1.6](https://gluu.org/docs/ce/3.1.6/installation-guide/)**
 
-### VM requirments
+### VM requirements
 Make sure your VM or server has at least **1GB of additional RAM** on top of the [Gluu Server system requirements](https://gluu.org/docs/ce/3.1.6/installation-guide/#system-requirements) 
 
 ### Configuration requirements
