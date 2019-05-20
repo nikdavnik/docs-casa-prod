@@ -48,7 +48,7 @@ The following operating systems are supported:
 
     Log in to oxTrust as an administrator and follow [these instructions](./admin-console.md#enabled-methods) to enable the desired 2FA credentials to be managed with Casa.
 
-1. Test credential enrollment
+1. Test credential enrollment and 2FA
 
     - [Enroll](../user-guide.md#2fa-credential-details-enrollment) at least two credentials on a non-administrator user.
 
