@@ -49,7 +49,7 @@ nav:
     - 'Localization': 'administration/localization.md'
     - 'Plugins':
         - '2FA Settings': 'plugins/2fa-settings.md'    
-        - 'Accounts linking': 'plugins/account-linking.md'
+        - 'Account linking': 'plugins/account-linking.md'
         - 'Consent Management': 'plugins/consent-management.md'
         - 'Custom Branding': 'plugins/custom-branding.md'
         - 'Write your own plugin': 'plugins/writing-plugins.md'
