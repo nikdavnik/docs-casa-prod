@@ -54,6 +54,10 @@ To extend Casa to meet your own custom requirements, learn more about writing pl
 
 Use the following links to get started with Casa:  
 
+### Quick Start Guide
+
+  - [Quick Start Guide](./administration/quick-start.md)
+
 ### Admin Guide
 
   - [Installation](./administration/installation.md)
