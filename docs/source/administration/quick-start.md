@@ -27,18 +27,16 @@ The following operating systems are supported:
 
 1. Set up Gluu Server
 
-    If installing Casa on the same server as an existing Gluu Server, this step can be skipped.
+    If setting up the Gluu Server for the first time with this installation, follow [these instructions](https://gluu.org/docs/ce/3.1.6/installation-guide/install/) to set up the newly installed package.
 
-    The Gluu Server must have at least the following components:
+    If your machine already includes a Gluu Server that was set up with at least the following components, you can skip this step:
 
       - oxAuth OAuth2 Server
       - oxTrust GUI
       - Gluu LDAP (such as OpenDJ)
       - Apache
-      - Passport (if [Account Linking](../plugins/account-linking.md)
+      - Passport (if using the [Account Linking](../plugins/account-linking.md) plugin
   
-    If there is not already a Gluu Server operational on the server, follow [these instructions](https://gluu.org/docs/ce/3.1.6/installation-guide/install/) to set up the newly installed package.
-
 1. Set up Casa
 
     Once the Gluu Server is set up, follow [these instructions](./installation.md#run-the-setup-script) to set up Casa. 
