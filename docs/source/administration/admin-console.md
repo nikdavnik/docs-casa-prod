@@ -46,14 +46,6 @@ To enable authentication methods in Gluu, open oxTrust and navigate to  `Configu
 ![oxtrust-enabled-scripts](../img/admin-console/oxTrust-enabled-scripts.png)
 
 To confirm script functionality, or if issues arise, check the [troubleshooting doc](./faq.md#troubleshooting-interception-scripts) in the FAQ.
-
-
-### Set Default Authentication Method (Gluu)
-With the Casa authentication script enabled in the Gluu Server, OpenID Connect clients can now request Casa authentication (i.e. each user's 2FA preference) using the standard OpenID Connect `acr_value`. 
-
-To make each person's 2FA preference in Casa, the default authentication mechanism for all Gluu logins, navigate to `Configuration` > `Manage Authentication` > `Default Authentication method` and set `Default acr` and `oxTrust acr` to `casa`. Click update to save your changes. 
-
-![oxtrust-enabled-scripts](../img/admin-console/oxTrust-auth-mechanisms.png)
     
 ### Configure Casa
 
@@ -80,6 +72,13 @@ In their home page, users will see widgets for every available method. These wid
 ### Testing 
 
 A recommended practice is to enable one script in the Gluu Server (like U2F), then enable the associated method in Casa. Test and confirm that enrollment and authentication is working as expected, then continue adding other desired 2FA methods. In an incognito browser, employ a user other than `admin` to test enrollments each time a new method is added. This will prevent the `admin` user from being accidentally locked out.
+
+### Set Default Authentication Method (Gluu)
+With the Casa authentication script enabled in the Gluu Server, OpenID Connect clients can now request Casa authentication (i.e. each user's 2FA preference) using the standard OpenID Connect `acr_value`. 
+
+To make each person's 2FA preference in Casa, the default authentication mechanism for all Gluu logins, navigate to `Configuration` > `Manage Authentication` > `Default Authentication method` and set `Default acr` and `oxTrust acr` to `casa`. Click update to save your changes. 
+
+![oxtrust-enabled-scripts](../img/admin-console/oxTrust-auth-mechanisms.png)
 
 ## 2FA settings
 
