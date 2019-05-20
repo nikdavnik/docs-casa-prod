@@ -37,7 +37,6 @@ The following operating systems are supported:
       - oxTrust GUI
       - Gluu LDAP (such as OpenDJ)
       - Apache
-      - Passport (if using the [Account Linking](../plugins/account-linking.md) plugin
   
 1. Set up Casa
 
