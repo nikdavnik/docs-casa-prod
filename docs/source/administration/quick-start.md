@@ -23,21 +23,21 @@ The following operating systems are supported:
 
 1. Install packages
 
-    Casa requires an operational Gluu Server with a matching version number to be installed on the same server or virtual machine. Follow the [Casa installation instructions](./installation.md#installation-via-linux-packages) to install the packages. If you don't already have the Gluu Server installed, it will be automatically installed with Casa.
+    Casa requires an operational Gluu Server with a matching version number (e.g. Casa 3.1.6 and Gluu 3.1.6). In addition, Casa should be installed on the same server or virtual machine as the Gluu Server. Follow the [Casa installation instructions](./installation.md#installation-via-linux-packages) to install the packages. If you don't already have the Gluu Server installed, it will be automatically installed with Casa.
     
     Do not run setup_casa.py at this time.
 
 1. Set up Gluu Server
 
-    If setting up the Gluu Server for the first time with this installation, follow [these instructions](https://gluu.org/docs/ce/3.1.6/installation-guide/install/) to set up the newly installed package.
-
-    If the machine already includes a Gluu Server that was set up with at least the following components, you can skip this step:
+    If setting up the Gluu Server for the first time with this installation, follow [these instructions](https://gluu.org/docs/ce/3.1.6/installation-guide/install/). Make sure to include at least the following components:
 
       - oxAuth OAuth2 Server
       - oxTrust GUI
       - Gluu LDAP (such as OpenDJ)
       - Apache
-  
+
+    If the machine already includes a Gluu Server, skip this step.
+
 1. Set up Casa
 
     Once the Gluu Server is set up, follow [these instructions](./installation.md#run-the-setup-script) to set up Casa. 
