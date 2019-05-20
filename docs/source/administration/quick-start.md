@@ -31,7 +31,7 @@ The following operating systems are supported:
 
     If setting up the Gluu Server for the first time with this installation, follow [these instructions](https://gluu.org/docs/ce/3.1.6/installation-guide/install/) to set up the newly installed package.
 
-    If your machine already includes a Gluu Server that was set up with at least the following components, you can skip this step:
+    If the machine already includes a Gluu Server that was set up with at least the following components, you can skip this step:
 
       - oxAuth OAuth2 Server
       - oxTrust GUI
@@ -58,7 +58,7 @@ The following operating systems are supported:
 
 1. Finish configuration
 
-    Once satisfied with testing, configure the Gluu Server to use Casa 2FA to log in users to all applications the server protects. Read the guide [here](./admin-console.md/#set-default-authentication-method-gluu).
+    Once satisfied with testing, configure the Gluu Server to log in users via Casa for all applications the server protects. Read the guide [here](./admin-console.md/#set-default-authentication-method-gluu).
 
 1. Check out available plugins
 
