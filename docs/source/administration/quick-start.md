@@ -2,6 +2,8 @@
 
 ## Overview
 
+Gluu Casa is a self-service web portal for end-users to manage security preferences for their account in a Gluu Server. Follow this guide to install and configure a basic Casa deployment.
+
 ## Prerequisites
 
 Casa requires a server or virtual machine with at least the following minimum requirements:
@@ -49,7 +51,7 @@ The following operating systems are supported:
 
 1. Test credential enrollment
 
-    - [Enroll](../user-guide.md#2fa-credential-details-enrollment) a non-administrator user with at least two credentials.
+    - [Enroll](../user-guide.md#2fa-credential-details-enrollment) at least two credentials on a non-administrator user.
 
     - [Turn on](../user-guide.md#turn-2fa-onoff) 2FA for the account.
 
