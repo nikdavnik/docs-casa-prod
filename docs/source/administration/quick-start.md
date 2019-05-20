@@ -59,7 +59,7 @@ The following operating systems are supported:
 
 1. Finish configuration
 
-    Once satisfied with testing, configure the Gluu Server to use Casa 2FA to log in users to all applications the server protects. Read the guide [here](./admin-console.md/#configure-casa).
+    Once satisfied with testing, configure the Gluu Server to use Casa 2FA to log in users to all applications the server protects. Read the guide [here](./admin-console.md/#set-default-authentication-method-gluu).
 
 1. Check out available plugins
 
