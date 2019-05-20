@@ -24,6 +24,8 @@ The following operating systems are supported:
 1. Install packages
 
     Casa requires an operational Gluu Server with a matching version number to be installed on the same server or virtual machine. Follow the [Casa installation instructions](./installation.md#installation-via-linux-packages) to install the packages. If you don't already have the Gluu Server installed, it will be automatically installed with Casa.
+    
+    Do not run setup_casa.py at this time.
 
 1. Set up Gluu Server
 
