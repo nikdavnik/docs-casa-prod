@@ -44,11 +44,11 @@ The following operating systems are supported:
 
     oxd is required to integrate Casa with the Gluu Server. When asked if the server has oxd installed, select `no` and allow the script to install it.
 
-1. Turn on authentication methods
+1. Enable authentication scripts
 
     Log in to oxTrust as an administrator and follow [these instructions](./admin-console.md#enabled-methods) to enable the desired 2FA credentials to be managed with Casa.
 
-1. Test credential enrollment and 2FA
+1. Test enrollment and 2FA
 
     - [Enroll](../user-guide.md#2fa-credential-details-enrollment) at least two credentials on a non-administrator user.
 
