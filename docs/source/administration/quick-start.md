@@ -42,7 +42,7 @@ The following operating systems are supported:
 
     Once the Gluu Server is set up, follow [these instructions](./installation.md#run-the-setup-script) to set up Casa. 
 
-    oxd is required to integrate Casa with the Gluu Server. When asked if the server has oxd installed, select `no` and allow the script to install it.
+    oxd is required to integrate Casa with the Gluu Server. If your deployment does not already have an active oxd server, it can be installed with the script. When asked if the server has oxd installed, select `no` and allow the script to install it.
 
 1. Enable authentication scripts
 
