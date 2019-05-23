@@ -21,49 +21,49 @@ The following operating systems are supported:
 
 ## Getting started
 
-1. Install packages
+### Install packages
 
-    Casa requires an operational Gluu Server with a matching version number (e.g. Casa 3.1.6 and Gluu 3.1.6). In addition, Casa should be installed on the same server or virtual machine as the Gluu Server. Follow the [Casa installation instructions](./installation.md#installation-via-linux-packages) to install the packages. If you don't already have the Gluu Server installed, it will be automatically installed with Casa.
+Casa requires an operational Gluu Server with a matching version number (e.g. Casa 3.1.6 and Gluu 3.1.6). In addition, Casa should be installed on the same server or virtual machine as the Gluu Server. Follow the [Casa installation instructions](./installation.md#installation-via-linux-packages) to install the packages. If you don't already have the Gluu Server installed, it will be automatically installed with Casa.
     
-    Do not run setup_casa.py at this time.
+Do not run setup_casa.py at this time.
 
-1. Set up Gluu Server
+### Set up Gluu Server
 
-    If setting up the Gluu Server for the first time with this installation, follow [these instructions](https://gluu.org/docs/ce/3.1.6/installation-guide/install/). Make sure to include at least the following components:
+If setting up the Gluu Server for the first time with this installation, follow [these instructions](https://gluu.org/docs/ce/3.1.6/installation-guide/install/). Make sure to include at least the following components:
 
-      - oxAuth OAuth2 Server
-      - oxTrust GUI
-      - Gluu LDAP (such as OpenDJ)
-      - Apache
+  - oxAuth OAuth2 Server
+  - oxTrust GUI
+  - Gluu LDAP (such as OpenDJ)
+  - Apache
 
-    If the machine already includes a Gluu Server, skip this step.
+If the machine already includes a Gluu Server, skip this step.
 
-1. Set up Casa
+### Set up Casa
 
-    Once the Gluu Server is set up, follow [these instructions](./installation.md#run-the-setup-script) to set up Casa. 
+Once the Gluu Server is set up, follow [these instructions](./installation.md#run-the-setup-script) to set up Casa. 
 
-    oxd is required to integrate Casa with the Gluu Server. If your deployment does not already have an active oxd server, it can be installed with the script. When asked if the server has oxd installed, select `no` and allow the script to install it.
+oxd is required to integrate Casa with the Gluu Server. If your deployment does not already have an active oxd server, it can be installed with the script. When asked if the server has oxd installed, select `no` and allow the script to install it.
 
-1. Configure Casa
+### Configure Casa
 
-- Enable authentication interception scripts in the Gluu Server. Log in to oxTrust as an administrator and follow [these instructions](./admin-console.md#enabled-methods) to enable the desired 2FA credentials to be managed with Casa.
+1. Enable authentication interception scripts in the Gluu Server. Log in to oxTrust as an administrator and follow [these instructions](./admin-console.md#enabled-methods) to enable the desired 2FA credentials to be managed with Casa.
 
-- Once the interception scripts have been enabled, they can be activated in Casa itself. Log in to Casa as an administrator and follow [these instructions](./admin-console.md#configure-casa) to enable the desired methods.
+1. Once the interception scripts have been enabled, they can be activated in Casa itself. Log in to Casa as an administrator and follow [these instructions](./admin-console.md#configure-casa) to enable the desired methods.
 
-- Use the [2FA Settings plugin](../plugins/2fa-settings.md) to set the minimum number of credentials a user must enroll by following [these instructions](./admin-console.md#2fa-settings).
+1. Use the [2FA Settings plugin](../plugins/2fa-settings.md) to set the minimum number of credentials a user must enroll by following [these instructions](./admin-console.md#2fa-settings).
 
-1. Test enrollment and 2FA
+### Test enrollment and 2FA
 
-    - [Enroll](../user-guide.md#2fa-credential-details-enrollment) at least two credentials on a non-administrator user.
+1. [Enroll](../user-guide.md#2fa-credential-details-enrollment) at least two credentials on a non-administrator user.
 
-    - [Turn on](../user-guide.md#turn-2fa-onoff) 2FA for the account.
+1. [Turn on](../user-guide.md#turn-2fa-onoff) 2FA for the account.
 
-    - Test 2FA Authentication by logging off and logging back in. Application access should now require a second authentication factor.
+1. Test 2FA Authentication by logging off and logging back in. Application access should now require a second authentication factor.
 
-1. Finish configuration
+### Finish configuration
 
     Once satisfied with testing, configure the Gluu Server to log in users via Casa for all applications the server protects. Read the guide [here](./admin-console.md/#set-default-authentication-method-gluu).
 
-1. Check out available plugins
+### Check out available plugins
 
     Browse our [catalog of plugins](https://casa.gluu.org/plugins) to add features and expand Casa!
