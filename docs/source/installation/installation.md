@@ -26,7 +26,7 @@ Make sure your VM or server has at least **1GB of additional RAM** on top of the
 ### User requirements
 Casa shares the Gluu Server's data, so any user with an account in the Gluu Server will have an account in Casa. There are two types of users in Gluu Casa:
 
-- **Admin users**: Admin users have access to the Casa [admin console](./admin-console.md). Any user in the `Managers Group` in the corresponding Gluu Server will be an Admin in Casa. 
+- **Admin users**: Admin users have access to the Casa [admin console](../administration/admin-console.md). Any user in the `Managers Group` in the corresponding Gluu Server will be an Admin in Casa. 
 
 - **Regular users**: Any other user in the Gluu Server is a "regular user" in Casa, and can use Casa to manage their account security preferences as outlined in the [user guide](../user-guide.md).  
 
@@ -145,5 +145,5 @@ Wait a couple of minutes, then visit the URL and authenticate against Gluu to ac
     As noted [above](#user-roles), make sure to sign in to Casa with a user that is included in the `Managers Group` in the Gluu Server. 
 
 ## Changing the URL path
-To change the default URL path for Casa, follow the steps listed [here](change-context-path.md). It is advisable to apply this customization **before** credentials are enrolled. 
+To change the default URL path for Casa, follow the steps listed [here](../administration/change-context-path.md). It is advisable to apply this customization **before** credentials are enrolled. 
    
