@@ -33,7 +33,7 @@ If you don't already have the Gluu Server installed, it will be automatically in
 
 ### Set up Gluu Server
 
-If you're setting up a fresh installation of the Gluu Server, follow [these instructions](https://gluu.org/docs/ce/3.1.6/installation-guide/install/). 
+If you installed the Gluu Server in the previous step, follow these instructions to [start the server](https://gluu.org/docs/ce/3.1.6/installation-guide/install/#start-the-server-and-log-in) and [run the setup script](https://gluu.org/docs/ce/3.1.6/installation-guide/install/#run-setuppy). 
 
 Make sure to include at least the following components:
 
@@ -42,7 +42,7 @@ Make sure to include at least the following components:
   - Gluu LDAP (such as OpenDJ)
   - Apache
 
-If the machine already has a Gluu Server, skip this step.
+Otherwise, skip this step.
 
 ### Set up Casa
 
@@ -54,11 +54,11 @@ The [oxd client software](https://gluu.org/docs/oxd) is a required component to 
 
 Configuring Casa for usage requires you to enable interception scripts in the Gluu Server, activate the authentication methods in Casa, and install and configure the 2FA settings plugin. 
 
-1. **Interception Scripts in Gluu**: Enable authentication interception scripts in the Gluu Server. Log in to oxTrust as an administrator and follow [these instructions](../administration/admin-console.md#enabled-methods) to enable the desired 2FA credentials to be managed with Casa.
+1. **Interception Scripts in Gluu**: Enable authentication interception scripts in the Gluu Server. Log in to oxTrust as an administrator and [enable the desired 2FA credentials](../administration/admin-console.md#enabled-methods) to be managed with Casa.
 
-1. **Activate authentication methods in Casa**: Once the interception scripts have been enabled, they can be activated in Casa itself. Log in to Casa as an administrator and follow [these instructions](../administration/admin-console.md#configure-casa) to enable the desired methods.
+1. **Activate authentication methods in Casa**: Once the interception scripts have been enabled, they can be activated in Casa itself. Log in to Casa as an administrator and [enable the desired methods](../administration/admin-console.md#configure-casa).
 
-1. **Setup 2FA preferences**: Use the [2FA Settings plugin](../plugins/2fa-settings.md) to set the minimum number of credentials a user must enroll by following [these instructions](../administration/admin-console.md#2fa-settings).
+1. **Setup 2FA preferences**: Use the [2FA Settings plugin](../plugins/2fa-settings.md) to set the [minimum number of credentials](../administration/admin-console.md#2fa-settings) a user must enroll.
 
 ### Test enrollment and 2FA
 
@@ -70,7 +70,7 @@ Configuring Casa for usage requires you to enable interception scripts in the Gl
 
 ### Finish configuration
 
-Once satisfied with testing, configure the Gluu Server to log in users via Casa for all applications the server protects. Read the guide [here](../administration/admin-console.md/#set-default-authentication-method-gluu).
+Once satisfied with testing, [configure the Gluu Server](../administration/admin-console.md/#set-default-authentication-method-gluu) to log in users via Casa for all applications the server protects.
 
 ### Check out available plugins
 
