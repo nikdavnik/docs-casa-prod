@@ -2,7 +2,7 @@
 
 ## Overview
 
-Gluu Casa ("Casa") is a self-service web portal for end-users to manage their account security preferences. 
+Gluu Casa ("Casa") is a self-service web portal for end-users to manage security preferences for their account(s) in a Gluu Server. 
 
 The primary use-case for Casa is self-service 2FA. Other use cases and functionalities can be supported via [Casa plugins](https://casa.gluu.org/plugins), for example [Account Linking](#account-linking) and [Consent Management](#consent-management). 
 
