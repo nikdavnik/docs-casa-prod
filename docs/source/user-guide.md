@@ -11,15 +11,16 @@ The primary use-case for Casa is self-service 2FA. Other use cases and functiona
 
 ## Sign in for the first time
 
-To log in to Casa, navigate to `https://<yourdomain>/casa`.
+To log in, navigate to your Casa web URL. By default, it will be: `https://<yourdomain>/casa`. 
+
+Sign in with your standard username and password. If you do not have an account but social login is enabled, a new account can be created via social login. 
 
 ![Login with linked account](./img/plugins/account-linking-login.png)
 
-Sign in with your standard username and password. If you do not have an account but social login is enabled, you can create a new account via social login. 
 
 ## Credential Dashboard
 
-The credential dashboard displays widgets for each type of supported 2FA credential (e.g. U2F keys, OTP apps, etc.). Each widget includes summary details of enrolled credentials and a button to manage credentials for your account.
+The credential dashboard displays widgets for each type of supported 2FA credential (e.g. U2F keys, OTP apps, etc.). Each widget displays summary details of your enrolled credentials, and a button to manage those credentials for your account.
 
 ![cred-dashboard](./img/dashboard-no-creds-enrolled.png)
 
@@ -33,10 +34,6 @@ If you have a FIDO key, click the `Manage Security Keys` button and follow the i
 
 ![cred-focused](./img/manage-highlighted.png)
 
-Upon clicking the `Manage...` button, you will be redirected to a dedicated page where you can add, delete, and manage your devices for that type of 2FA. 
-
-!!! Note 
-    When a credential is deleted, it cannot be recovered. You will need to re-enroll the credential. Deleting credentials may result in 2FA being turned off. 
 
 ### U2F security keys
 
@@ -144,7 +141,7 @@ If you opt for 2FA based on location, device, or both, a new widget will appear 
 The context of an authentication attempt can determine which type of credental is most convenient to use. For instance, U2F keys are not compatible with mobile phones or non-Chrome browsers. 
 
 **To reduce the chance of account lockout**, enroll at least two different _types_ of 2FA credentials -- e.g. one U2F token and one OTP app; or one OTP app and one SMS phone number, etc. This way, regardless which device you're using to access a protected resource, you will have a usable option for passing strong authentication. 
-    
+
 ## Password Reset
 
 If enabled by the system administrator, Casa can also be used to change your password. 
