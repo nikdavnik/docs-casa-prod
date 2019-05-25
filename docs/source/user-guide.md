@@ -20,7 +20,7 @@ Sign in with your standard username and password. If you do not have an account 
 
 ## Credential Dashboard
 
-The credential dashboard displays widgets for each type of supported 2FA credential (e.g. U2F keys, OTP apps, etc.). Each widget displays summary details of your enrolled credentials, and a button to manage those credentials for your account.
+Your dashboard includes widgets for all supported 2FA credentials (e.g. U2F keys, OTP apps, etc.). Each widget displays summary details of your enrolled credentials, and a button to manage those credentials for your account.
 
 ![cred-dashboard](./img/dashboard-no-creds-enrolled.png)
 
