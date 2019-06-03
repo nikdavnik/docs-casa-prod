@@ -2,11 +2,13 @@
 
 ## Overview
 
-Gluu Casa is a self-service web portal for end-users to manage security preferences for their account in a Gluu Server. Follow this guide to install and configure a basic Casa deployment.
+Gluu Casa is a self-service web portal for end-users to manage security preferences for their account in a [Gluu Server](https://gluu.org). Follow this guide to install and configure a deployment of Casa.
 
 ## Prerequisites
 
-Casa requires a server or virtual machine with at least the following minimum requirements:
+Casa can be installed on a VM with a pre-existing Gluu Server installation, or a new instance of the Gluu Server can be installed during Casa deployment. 
+
+The server or virtual machine should have at least the following minimum specs:
 
 | CPU Unit | RAM | Disk Space | Processor Type |
 |------ | ---- | ---- | ---- |
@@ -25,7 +27,7 @@ The following operating systems are supported:
 
 Casa requires an operational Gluu Server with a matching version number (e.g. Casa 3.1.6 and Gluu 3.1.6). In addition, Casa should be installed on the same server or virtual machine as the Gluu Server. 
 
-Follow the [Casa installation instructions](./installation.md#installation-via-linux-packages) to install the packages. 
+- Follow the [Casa installation instructions](./installation.md#installation-via-linux-packages) to install the packages.  
 
 If you don't already have the Gluu Server installed, it will be automatically installed with Casa.
     
