@@ -8,7 +8,7 @@ Gluu Casa is a self-service web portal for end-users to manage security preferen
 
 Casa can be installed on a VM with a pre-existing Gluu Server installation, or a new instance of the Gluu Server can be installed during Casa deployment. 
 
-The server or virtual machine should have at least the following minimum specs:
+The server or VM should have at least the following minimum specs:
 
 | CPU Unit | RAM | Disk Space | Processor Type |
 |------ | ---- | ---- | ---- |
