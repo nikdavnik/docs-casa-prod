@@ -133,7 +133,7 @@ If a user is locked out for any reason (e.g. lost device, etc.), an admin can na
 
 Plugins are vehicles to augment the functionalities available by default in Gluu Casa. To learn more about plugins, visit the [developer guide](..\developer\index.md#plugins).
 
-In this section of the console, the current list of active and dormant plugins is shown. Once an element in the list is selected, a summary of the relevant plugin's metadata is visualized. You can manage the state of plugins as well as remove them.
+In this section of the console, the current list of active plugins is shown. Once an element in the list is selected, a summary of the relevant plugin's metadata is visualized.
 
 Click on the "Add a plugin..." button to select a file in your local hard drive that you wish to onboard as a new plugin into your Gluu Casa installation. Account that plugin files must have a specific format and structure as explained [here](../developer/intro-plugin.md#anatomy-of-a-plugin).
 
