@@ -32,6 +32,21 @@ Although being able to change files this way doesn't seem like a big advantage, 
 
 Actually, **you can write Java** without requiring compilation. In ZK pages, you can include snippets of Java in `<zscript>` tags. See "ZScript" in [ZUML Reference](./intro-plugin.md#reference-docs) and "Scripts in ZUML" in [ZK Developers' Reference](./intro-plugin.md#reference-docs). ZScript can be used as a fast prototyping vehicle, but are not advised for use in production artifacts.
 
+## Hot redeploy of jar files
+
+When several files need to be updated and that includes Java classes, a cleaner approach is using the hot redeploying feature supported by Casa (starting with version 4.0). Here is how to proceed:
+
+- Locally generate the jar file for the plugin to test 
+- Connect to the VM and cd to `/opt/gluu/jetty/casa/plugins`
+- Upload the file
+- Wait 1 minute
+
+This action will unload the plugin (if it was previously added) and then deploy it using the fresher file contents. If the file uploaded has a different name than the existing one, please remove it. Ideally the same file name should always be used, thus replacing the same file over and over.
+
+An active plugin can also be removed by deleting the corresponding file from the server. This action will also take 1 minute (at most) to take effect.
+
+!!! Note: This approach allows developers to save some clicks on the UI, not necessarily time.
+
 ## Write a good manifest!
 
 This won't make you more agile, but taking the time to write a good license and description notes in your plugin manifest file will allow you to communicate more effectively to others about the features you are delivering with your artifacts. You can also use the description note to describe prerequisites your plugin may have (such as interacting with an external system.)
