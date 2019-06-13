@@ -114,18 +114,29 @@ Casa is distributed as part of the Gluu Server extensions bundle. Follow the ins
 | Update/Clean Repo       | `# apt-get update`                         |
 | Install Gluu Server extension pack     | `# apt-get install gluu-casa`      |
 
-    
+
+## Apply patch
+
+Before proceeding ensure you get the latest *war* file. Proceed as follows:
+
+1. Log in to the Gluu Server chroot:
+
+    `$ service gluu-server-3.1.6 login`
+
+    (Or `gluu-serverd-3.1.6 start` for systemd-based distros). 
+
+1. `cd` to `/opt/dist/gluu`
+
+1. Ensure the VM has Internet access and run `wget https://ox.gluu.org/maven/org/xdi/casa/3.1.6.Final/casa-3.1.6.Final.war`
+
+1. Rename the file `mv casa-3.1.6.Final.war casa.war`
+
+
 ## Run the Setup Script
 
 The Casa setup script, `setup_casa.py`, adds the application to the Gluu Server, imports required data to LDAP, and applies a number of required configurations in the Gluu Server chroot.
 
-Log in to the Gluu Server chroot, as follows:
-
-`$ service gluu-server-3.1.6 login`
-
-(Or `gluu-serverd-3.1.6 start` for systemd-based distros). 
-
-Then `cd` to the setup scripts directory and run `setup_casa.py`: 
+Standing in Gluu Server chroot, `cd` to the setup scripts directory and run `setup_casa.py`: 
 
 ```
 # cd /install/community-edition-setup
