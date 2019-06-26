@@ -137,4 +137,3 @@ Wait a couple of minutes, then visit the URL and authenticate against Gluu to ac
 
 !!! Note 
     To change the default URL path for Casa follow the steps listed [here](change-context-path.md). It is advisable to apply this customization **before** credentials are enrolled. 
-   
