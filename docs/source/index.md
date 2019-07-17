@@ -56,7 +56,7 @@ Use the following links to get started with Casa:
 
 ### Quick Start Guide
 
-  - [Quick Start Guide](./administration/quick-start.md)
+  - [Quick Start Guide](./installation/quick-start.md)   
 
 ### Admin Guide
 
