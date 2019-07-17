@@ -36,10 +36,9 @@ nav:
     - '3.1.6': 'https://gluu.org/docs/casa/3.1.6/'
 - ' ': 'https://gluu.org'
 - ' ': 'https://gluu.org'
-- Home: 'index.md'    
-- Installation Guide:
-    - 'Quick Start Guide': 'installation/quick-start.md'
-    - 'Installation': 'installation/installation.md'
+- Home: 'index.md'   
+- Quick Start: 'quick-start.md'
+- Installation: 'installation/installation.md'
 - Administration Guide: 
     - 'About two-factor authentication': 'administration/2fa-basics.md'
     - 'Admin console': 'administration/admin-console.md'   
