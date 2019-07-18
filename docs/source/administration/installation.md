@@ -70,15 +70,6 @@ Casa is distributed as part of the Gluu Server extensions bundle. Follow the ins
 | Update/Clean Repo       | `# yum clean all`                          |
 | Install Gluu Casa     | `# yum install gluu-casa`          |
 
-### Debian 8 (Jessie)
-
-| Command Description     |               Jessie Commands         |
-|-------------------------|---------------------------------------|
-| Add Gluu Repository     | `# echo "deb https://repo.gluu.org/debian/ stable main" > /etc/apt/sources.list.d/gluu-repo.list`|
-| Add Gluu GPG Key        | `# curl https://repo.gluu.org/debian/gluu-apt.key | apt-key add -` |
-| Update/Clean Repo       | `# apt-get update`                         |
-| Install Gluu Casa     | `# apt-get install gluu-casa`      |
-
 ### Debian 9 (Stretch)
 
 | Command Description     |               Jessie Commands         |
