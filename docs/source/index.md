@@ -60,7 +60,7 @@ Use the following links to get started with Casa:
 
 ### Admin Guide
 
-  - [Installation](./administration/installation.md)
+  - [Installation](./installation/installation.md)
   - [Admin console](./administration/admin-console.md)
   - [Credentials storage](./administration/credentials-stored.md)        
   - [Custom branding](./administration/custom-branding.md)        
