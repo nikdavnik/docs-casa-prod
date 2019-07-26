@@ -66,9 +66,11 @@ While configuring Passport earlier, you enabled one or more authentication scrip
 
 In oxTrust, navigate to `Configuration` > `Manage custom scripts` and for every script you enabled, add a configuration parameter with name `authz_req_param_provider`. Set its value to the custom authorization parameter created earlier (e.g. `custParamCasaPassport`).
 
-### Update Casa custom script
+### Update custom script and login pages
 
-Since the *standard* authentication flow will be different, the `casa` script contents must be updated. Expand the row corresponding to Casa script, back up the current script contents and then replace with those found [here](https://github.com/GluuFederation/casa-ee-plugins/raw/version_3.1.6/account-linking/extras/casa.py).
+Since the *standard* authentication flow will be different, the `casa` interception script and login page must be updated. 
+
+Expand the row corresponding to Casa script, back up the current script contents and then replace with those found [here](https://github.com/GluuFederation/casa-ee-plugins/raw/version_3.1.6/account-linking/extras/casa.py).
 
 Press the update button at the bottom of the page.
 
