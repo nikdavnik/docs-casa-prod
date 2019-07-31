@@ -35,16 +35,16 @@ If you don't already have the Gluu Server installed, it will be automatically in
 
 ### Set up Gluu Server
 
-If you installed the Gluu Server in the previous step, follow these instructions to [start the server](https://gluu.org/docs/ce/3.1.6/installation-guide/install/#start-the-server-and-log-in) and [run the setup script](https://gluu.org/docs/ce/3.1.6/installation-guide/install/#run-setuppy). 
+If the Gluu Server was installed in the previous step, follow these instructions to [start the server](https://gluu.org/docs/ce/3.1.6/installation-guide/install/#start-the-server-and-log-in) and [run the setup script](https://gluu.org/docs/ce/3.1.6/installation-guide/install/#run-setuppy). 
 
 Otherwise, skip this step.
 
-Make sure to include at least the following components:
+Make sure the Gluu Server has at least the following components:
 
   - oxAuth OAuth2 Server
-  - oxTrust GUI
-  - Gluu LDAP (such as OpenDJ)
-  - Apache
+  - oxTrust admin GUI
+  - Gluu LDAP 
+  - Apache Web Server
 
 ### Set up Casa
 
