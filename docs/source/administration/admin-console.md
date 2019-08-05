@@ -4,17 +4,17 @@ The sections below document the admin console that is available to Gluu Casa adm
 
 All configuration changes applied via the admin console take effect immediately with no restart or other actions required.
 
-## LDAP 
+## Local database 
 
-This header contains the settings Casa uses to establish a connection to the underlying LDAP. These settings are made by the application installer and there is no need to apply any change afterwards. Update these settings only if the application needs to be tested against a different LDAP Server. 
+This header contains the settings Casa uses to establish a connection to the underlying database (LDAP or couchbase). These settings are made by the application installer and there is no need to apply any change afterwards. Update these settings only if the application needs to be tested against a different database Server. 
 
-![local-ldap](../img/admin-console/LDAP-settings.png)
+![local-ldap](../img/admin-console/LocalDatabase.png)
 
 ## oxd
 
 Casa leverages [oxd](https://oxd.gluu.org) to faciliate user authentication against its corresponding Gluu Server. oxd installation and configuration is prompted during Casa installation. To change or update details about the oxd server, or to configure and use an existing oxd deployment, navigate to the `oxd` page in the admin console.
 
-![oxd-settings](../img/admin-console/oxd-settings.png)
+![oxd-settings](../img/admin-console/oxdSettings.png)
 
 In case of lockout, visit the [FAQ document](./faq.md#oxd).
 
