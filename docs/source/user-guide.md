@@ -37,7 +37,9 @@ If you have a FIDO key, click the `Manage Security Keys` button and follow the i
 
 ### U2F security keys
 
-To add a new U2F credential, navigate to `2FA credentials` > `U2F Security Keys`. Insert your U2F key in your computer and click`Ready`. Casa will prompt you to press the button on your U2F key.
+U2F security keys are available from many vendors, such as [Yubico](https://www.yubico.com/products/yubikey-hardware/). 
+
+To add a new U2F key, navigate to `2FA credentials` > `U2F Security Keys`. Insert your U2F key in your computer and click`Ready`. Casa will prompt you to press the button on your U2F key.
 
 ![add-u2f](./img/add-2fa-casa.png)
 
@@ -51,7 +53,7 @@ Once complete, the new device will appear in a list on the same page. Click the 
     
 ### Super Gluu Devices
 
-First, make sure Super Gluu is installed on your smartphone. The app is available for [iOS](https://apps.apple.com/us/app/super-gluu/id1093479646) and [Android](https://play.google.com/store/apps/details?id=gluu.org.super.gluu&hl=en). 
+Super Gluu is available for [iOS](https://apps.apple.com/us/app/super-gluu/id1093479646) and [Android](https://play.google.com/store/apps/details?id=gluu.org.super.gluu&hl=en). 
 
 To add a new Super Gluu device, navigate to `2FA credentials` > `Super Gluu Devices`.
 
@@ -82,7 +84,7 @@ To add a soft token OTP, e.g. a mobile app like Google Authenticator, click the 
 Click `Ready` and an enrollment QR code will pop up. Scan it with your OTP mobile app. Casa will now prompt you to enter the OTP from your mobile app. Confirm it, then give the credential a nickname. 
 
 #### Hard tokens
-To add a hard token OTP, e.g. a single button "dongle like [this](https://www.ftsafe.com/Products/OTP/Single_Button_OTP), select `Hard Token`.
+To add a hard token OTP, e.g. a single button "dongle" like [this](https://www.ftsafe.com/Products/OTP/Single_Button_OTP), select `Hard Token`.
 
 ![enroll-otp-casa](./img/enroll-otp-casa.png)
 
