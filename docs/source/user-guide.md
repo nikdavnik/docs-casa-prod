@@ -51,6 +51,8 @@ Once complete, the new device will appear in a list on the same page. Click the 
     
 ### Super Gluu Devices
 
+First, make sure Super Gluu is installed on your smartphone. The app is available for [iOS](https://apps.apple.com/us/app/super-gluu/id1093479646) and [Android](https://play.google.com/store/apps/details?id=gluu.org.super.gluu&hl=en). 
+
 To add a new Super Gluu device, navigate to `2FA credentials` > `Super Gluu Devices`.
 
 ![add-supergluu-casa](./img/add-supergluu-casa.png)
@@ -75,12 +77,12 @@ To add a new OTP token, navigate to `2FA credentials` > `OTP Tokens`.
 
 #### Soft tokens 
 
-To add a soft OTP token, e.g. a mobile app like Google Authenticator, click the radio dial for `Soft token`. 
+To add a soft token OTP, e.g. a mobile app like Google Authenticator, click the radio dial for `Soft token`. 
 
 Click `Ready` and an enrollment QR code will pop up. Scan it with your OTP mobile app. Casa will now prompt you to enter the OTP from your mobile app. Confirm it, then give the credential a nickname. 
 
 #### Hard tokens
-For a hard token, choose the `Hard Token` option.
+To add a hard token OTP, e.g. a single button "dongle like [this](https://www.ftsafe.com/Products/OTP/Single_Button_OTP), select `Hard Token`.
 
 ![enroll-otp-casa](./img/enroll-otp-casa.png)
 
