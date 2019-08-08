@@ -27,7 +27,6 @@ In addition, make sure your instance meets the following requirements:
     
 ## Installation via Linux Packages 
 
-Casa is distributed as part of the Gluu Server extensions bundle. Follow the instructions according to your underlying OS.
 
 !!! Warning 
     If you have logged into the Gluu chroot in any console terminal, log out before proceeding.
